@@ -14,9 +14,34 @@
 	}, 5000);
 	</script>
 	
+	<script>
+	$('.enter_link').click(function () {
+    	$(this).parent('#splashscreen').fadeOut(500);
+	});
+	</script>
 
 <style>
-
+	#splashscreen {
+    		position:absolute;
+    		top:0;
+    		left:0;
+		bottom:0;
+    		width:100%;
+    		background-color:white;
+}
+	
+	
+</style>
+	
+<div id="splashscreen">
+    <h2>Welcome !</h2>
+    Take a look at our new products, blablabla
+    <img src="https://images.unsplash.com/photo-1592919933511-ea9d487c85e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80" />
+    
+    <a href="#" class="enter_link">Enter on the website</a>
+</div>
+<body>
+	
 
 
 </body>
