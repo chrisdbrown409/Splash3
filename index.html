@@ -6,9 +6,15 @@
 	<meta name="viewport" 		content="width=device-width, initial-scale=1.0">
 	<meta name="description" 	content="Chris Brown | Quality Assurance"> <!---Web Searches--->
 	
-	<Title>Chris Brown | Splash</Title> 
+	<Title>Chris Brown | Splash 3</Title> 
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	
+	<script>
+	setTimeout(function(){
+   	 document.getElementById('aap').className = 'hide';
+	}, 5000);
+	</script>
 
 <style>
 * {
@@ -57,123 +63,6 @@ p {
    color: #000;
 }
 
-.scroller .inner {
-   -webkit-animation: scroll 10s 1 ease-out;
-   -moz-animation: scroll 10s 1 ease-out;
-   	animation: scroll 10s 1 ease-out;
-	
-	animation: scroll 20s 1 ease-out;
-	animation: scroll 20s 1 ease-out;
-	
-   -webkit-animation-fill-mode: forwards;
-   -moz-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-
-
-.blue {
-   -webkit-animation: color 0.25s 1 linear;
-   -moz-animation: color 0.25s 1 linear;
-   animation: color 0.25s 1 linear;
-   
-      -webkit-animation-delay: 8s;
-   -moz-animation-delay: 8s;
-   animation-delay: 8s;
-   
-      -webkit-animation-fill-mode: forwards;
-   -moz-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-	
-      -webkit-animation-fill-mode: forwards;
-   -moz-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-   
-}
-
-
-.blueb {
-   -webkit-animation: color 0.25s 1 linear;
-   -moz-animation: color 0.25s 1 linear;
-   animation: color 0.25s 1 linear;
-   
-         -webkit-animation-delay: 8.25s;
-   -moz-animation-delay: 8.25s;
-   animation-delay: 8.25s;
-   
-      -webkit-animation-fill-mode: forwards;
-   -moz-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-	    
-	-webkit-animation-fill-mode: forwards;
-   -moz-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-}
-
-
-@-webkit-keyframes color {
-   0%  {color: #000;}
-   100% {color: #2c90c6;}
-}
-
-@-moz-keyframes color {
-   0%  {color: #000;}
-   100% {color: #2c90c6;}
-}
-
-@keyframes color {
-   0%  {color: #000;}
-   100% {color: #2c90c6;}
-}
-
-	/***one needed for each line***/
-@keyframes color {
-   0%  {color: #000;}
-   100% {color: #2c90c6;}
-}
-	/***one needed for each line***/
-@keyframes color {
-   0%  {color: #000;}
-   100% {color: #2c90c6;}
-}
-
-
-@-webkit-keyframes scroll {
-   11%  {margin-top: 0px;}
-   22%  {margin-top: 0px;}
-   33%  {margin-top: -50px;}
-   44%  {margin-top: -50px;}
-   55%  {margin-top: -100px;}
-   66%  {margin-top: -100px;}
-   77%  {margin-top: -150px;}
-   88%  {margin-top: -150px;}
-   100% {margin-top: -150px;}
-}
-
-@-moz-keyframes scroll {
-   11%  {margin-top: 0px;}
-   22%  {margin-top: 0px;}
-   33%  {margin-top: -50px;}
-   44%  {margin-top: -50px;}
-   55%  {margin-top: -100px;}
-   66%  {margin-top: -100px;}
-   77%  {margin-top: -150px;}
-   88%  {margin-top: -150px;}
-   100% {margin-top: -150px;}
-}
-
-@keyframes scroll {
-   01%  {margin-top: 0px;}
-   30%  {margin-top: 0px;}
-   40%  {margin-top: -50px;}
-   50%  {margin-top: -50px;}
-   60%  {margin-top: -100px;}
-   70%  {margin-top: -100px;}
-   80%  {margin-top: -150px;}
-   90%  {margin-top: -150px;}
-   100% {margin-top: -150px;}
-}
 
 
 </style>
@@ -187,16 +76,13 @@ Your browser does not support the audio element.
 
 
 
-<div class="container">
-	<div class="scroller">
-		<div class="inner">
-			<span>Imagine,</span>
-			<span>It isn't hard to do.</span>
-			<span>Its easy if you try.</a></span>
-			<span> ~ <a class="blue">John </a> <a class="blueb">Lennon.</a></span>
-		</div>
+<div class="main">
+	<div class="Show"> <!---added for show class--->
+		<show id="aap">A true sign of intelligence is not knowledge but imagination.<br />
+		<br />
+		<b>~ Albert Einstein</b> <!--- </show> removed--->
+		</div> 	<!---added for show class--->
 	</div>
-</div>
 
 
 </body>
