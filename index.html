@@ -56,6 +56,7 @@ body {
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
+	display: none; /*v1.2 added display: inline-block;*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -66,7 +67,8 @@ body {
   	font-size:8pt;
   	font-style:normal;
 	font-family: times,serif;
- }
+ 	}
+}
 	
 
 </style>
@@ -90,9 +92,10 @@ Your browser does not support the audio element.
 
 
 </body>
-	<footer>
+	<div class="footer">
 		<input type="button" onclick="window.location.href='https://github.com/chrisdbrown409/Splash3/edit/main/index.html';" value="GIT Project" />
 		version: 1.0
+		</footer>
 </html>
 <!---
 ref:https://speckyboy.com/splash-screen-design/
