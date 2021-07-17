@@ -1,72 +1,59 @@
 <!doctype html>
 <html lang="en-US" dir="ltr">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" 		content="width=device-width, initial-scale=1.0">
-	<meta name="description" 	content="Chris Brown | Quality Assurance"> <!---Web Searches--->
-	
-	<Title>Chris Brown | Splash 3</Title> 
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	
-	<script>
-	setTimeout(function(){
-   	 document.getElementById('aap').className = 'hide';
-	}, 6000);
-	</script>
+<link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
 
-<style>
-* {
-   margin: 0px;
-   padding: 0px;
-   font-weight: 200;
-   font-family: helvetica neue, helvetica, arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+for(var i=0;i<9;i++) {
+    var x = $('li')[i];
+    $(x).css('-webkit-animation','music 1s '+i+'00ms  ease-in-out both infinite');
 }
+</script>
 
-a{color: #000; text-decoration: none;}
-a:hover{color: #000; text-decoration: none;}
-
+<Style>
+   	
 body {
-   background: #fafafa;
-}  
+  		padding: 20%;
+        align-text: center;
+        height: 10em;
+  		display: flex;
+       	color: powderblue;
+        font-size: 15px;
+         font-family: 'Dekko';
+	  	align-items: center;
+  		justify-content: center }
+		div.body p {
+  		margin: 0
+   	    }
+       }
 
-.container {
-   width: 100%;
-   height: 50px;
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   margin-left: -25%;
-   margin-top: -25px;
+h1   {
+		position: absolute;
+     
 }
 
-.main {
-	width: 100%;
-   	height: 50px;
-   	position: fixed;
-   	top: 50%;
-   	left: 50%;
-   	margin-left: -25%;
-   	margin-top: -25px;
-
-	}
-
-show {
-    	font-family: times,serif;
-	font-style: italic;
-	Font-size: 15pt;
-	text-align: center;
-	opacity:1;
-	transition:opacity 500ms;
-	}
-
-Show.hide {
-	opacity:0;
+ul li {
+    display: block;
+    float: left;
+    font-size: 2em;
+    color: #ccc;
+    text-shadow: 0 -1px 0 white, 0 1px 0 black;
 }
-	
+.anim {
+    -webkit-animation: music 1s ease-in-out both infinite;
+}
 
+@-webkit-keyframes music {
+    0%,100% {
+        -webkit-transform: translate3d(0,-10px,0);
+    }
+    25% {
+        -webkit-transform: translate3d(0,10px,0);
+    }
+}
+  
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
@@ -83,10 +70,10 @@ Show.hide {
 	font-family: times,serif;
  	}
 }
-	
-
-</style>
+    
+</Style>
 </head>
+	
 <body>
 
 <audio controls autoplay> <!---<audio controls autoplay muted> --->
@@ -94,31 +81,197 @@ Show.hide {
 Your browser does not support the audio element.
 </audio>
 
+<h1> <div id="rotate">
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:grey;">&#9834;</li>
+	<li style="color:grey;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:grey;">&#9833;</li>
+	<li style="color:grey;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li>&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li>&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
 
 
-<div class="main">
-	<div class="Show"> <!---added for show class--->
-		<show id="aap">A true sign of intelligence is not knowledge but imagination.<br />
-		<br />
-		<b>~ Albert Einstein</b> <!--- </show> removed--->
-	</div> 	<!---added for show class--->
-	
-	
-	
-	<div class="Show"> <!---added for show class--->
-		<show id="aap">Imagine,.<br />
-		<br />
-		</div> 	<!---added for show class--->
-	</div>
+
+<div style="color:blue;"> <i>Imagine</i> there is no heaven,</div> 
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul> 
+<div>Its easy if you <u>try.</u></div> 
+<div>No hell below us,</div> 
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul> 
+<div>Above us only sky.</div> 
+
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+<div style="color:#3aba36;"><i>Imagine</i> all the people,</div>  
+<div>Living for today,</div>
+<div>ahhh...</div>
 
 
+<div><i>Imagine</i> there is not countries,</div> 
+<div>It isnt hard to do.</div>
+<div>Nothing to kill or die for,</div> 
+<div style="color:orange;">&#9836;</div> 
+<div>And no religion too.</div> 
+
+<div><i>Imagine</i> all the people,</div> 
+<div>Living life in peace, </div> 
+<div>you...</div> 
+
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+<div>You may say Im a dreamer,</div> 
+<div>But Im not the only one.</div> 
+<div>I hope some day you will join us,</div> 
+<div>And the world will be as one.</div> 
+
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>	
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+<div><i>Imagine</i> no possessions,</div>
+<div style="color:orange;">&#9836;</div> 
+<div>I wonder if you can.</div> 
+<div>No need for greed or hunger,</div> 
+<div style="color:#7c3791;">Our brotherhood of man.</div> 
+
+<div><i>Imagine</i> all the people,</div> 
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+<div>Sharing all the world,</div> 
+<div>you....</div>
+<div>You may say I'm a dreamer</div> 
+<div>But I am not the only one.</div> 
+<div>I hope some day you will join us,</div> 
+<div>and the world will live as <u>one.</u></div>
+<ul>
+	<li style="color:purple;">&#9833;</li>
+	<li style="color:green;">&#9834;</li>
+	<li style="color:blue;">&#9835;</li>
+	<li style="color:purple;">&#9836;</li>
+	<li style="color:green;">&#9833;</li>
+	<li style="color:blue;">&#9834;</li>
+	<li style="color:purple;">&#9835;</li>
+</ul>
+<div>John Lennon.</div>
+
+<div></div>
+
+
+
+
+
+</div> 
+</h1>
+<script>
+(function($){
+    $.fn.extend({ 
+        rotaterator: function(options) {
+ 
+            var defaults = {
+                fadeSpeed: 1200,
+                pauseSpeed: 1200,
+        child:null
+            };
+             
+            var options = $.extend(defaults, options);
+         
+            return this.each(function() {
+                  var o =options;
+                  var obj = $(this);                
+                  var items = $(obj.children(), obj);
+          items.each(function() {$(this).hide();})
+          if(!o.child){var next = $(obj).children(':first');
+          }else{var next = o.child;
+          }
+          $(next).fadeIn(o.fadeSpeed, function() {
+            $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+              var next = $(this).next();
+              if (next.length == 0){
+                  next = $(obj).children(':first');
+              }
+              $(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
+            })
+          });
+            });
+        }
+    });
+})(jQuery);
+
+ $(document).ready(function() {
+        $('#rotate').rotaterator({fadeSpeed:1450, pauseSpeed:1450});
+ });
+ </script>
 </body>
+
 	<div class="footer">
 		<input type="button" onclick="window.location.href='https://github.com/chrisdbrown409/Splash3/edit/main/index.html';" value="GIT Project" />
 		version: 2.0
 		</footer>
+	
+
 </html>
-<!---
-ref:https://speckyboy.com/splash-screen-design/
-https://www.youtube.com/watch?v=MOlaldp1Fv4
+<!---https://www.webdesigndev.com/16-gorgeous-web-safe-fonts-to-use-with-css/
 --->
